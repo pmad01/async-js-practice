@@ -1,0 +1,40 @@
+#weather-button {
+    position: absolute;
+    background-color: #0a0a23;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#weatherButton:active {
+    background: lightslategray;
+}
+
+#weather-card {
+    position: absolute;
+    width: 300px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#city-country {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#weather-data {
+    text-align: center;
+    font-size: 16px;
+}
+
+#flag {
+    width: 100%;
+}
